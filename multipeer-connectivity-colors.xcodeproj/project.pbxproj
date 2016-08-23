@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED796D671BD9AA0800DE62A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796D661BD9AA0800DE62A1 /* AppDelegate.swift */; };
+		ED796D6C1BD9AA0800DE62A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED796D6A1BD9AA0800DE62A1 /* Main.storyboard */; };
+		ED796D6E1BD9AA0800DE62A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED796D6D1BD9AA0800DE62A1 /* Images.xcassets */; };
+		ED796D711BD9AA0800DE62A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED796D6F1BD9AA0800DE62A1 /* LaunchScreen.xib */; };
+		ED796D7D1BD9AA0800DE62A1 /* multipeer_connectivity_colorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796D7C1BD9AA0800DE62A1 /* multipeer_connectivity_colorsTests.swift */; };
+		ED796D871BD9AA9A00DE62A1 /* ColorSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796D861BD9AA9A00DE62A1 /* ColorSwitchViewController.swift */; };
+		ED796D891BD9AF1500DE62A1 /* ColorServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED796D881BD9AF1500DE62A1 /* ColorServiceManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED796D771BD9AA0800DE62A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED796D591BD9AA0800DE62A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED796D601BD9AA0800DE62A1;
+			remoteInfo = "multipeer-connectivity-colors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED796D611BD9AA0800DE62A1 /* multipeer-connectivity-colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipeer-connectivity-colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED796D651BD9AA0800DE62A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED796D661BD9AA0800DE62A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED796D6B1BD9AA0800DE62A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED796D6D1BD9AA0800DE62A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED796D701BD9AA0800DE62A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED796D761BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer-connectivity-colorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED796D7B1BD9AA0800DE62A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED796D7C1BD9AA0800DE62A1 /* multipeer_connectivity_colorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipeer_connectivity_colorsTests.swift; sourceTree = "<group>"; };
+		ED796D861BD9AA9A00DE62A1 /* ColorSwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwitchViewController.swift; sourceTree = "<group>"; };
+		ED796D881BD9AF1500DE62A1 /* ColorServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorServiceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED796D5E1BD9AA0800DE62A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED796D731BD9AA0800DE62A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED796D581BD9AA0800DE62A1 = {
+			isa = PBXGroup;
+			children = (
+				ED796D631BD9AA0800DE62A1 /* multipeer-connectivity-colors */,
+				ED796D791BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests */,
+				ED796D621BD9AA0800DE62A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED796D621BD9AA0800DE62A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED796D611BD9AA0800DE62A1 /* multipeer-connectivity-colors.app */,
+				ED796D761BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED796D631BD9AA0800DE62A1 /* multipeer-connectivity-colors */ = {
+			isa = PBXGroup;
+			children = (
+				ED796D661BD9AA0800DE62A1 /* AppDelegate.swift */,
+				ED796D861BD9AA9A00DE62A1 /* ColorSwitchViewController.swift */,
+				ED796D6A1BD9AA0800DE62A1 /* Main.storyboard */,
+				ED796D881BD9AF1500DE62A1 /* ColorServiceManager.swift */,
+				ED796D6D1BD9AA0800DE62A1 /* Images.xcassets */,
+				ED796D6F1BD9AA0800DE62A1 /* LaunchScreen.xib */,
+				ED796D641BD9AA0800DE62A1 /* Supporting Files */,
+			);
+			path = "multipeer-connectivity-colors";
+			sourceTree = "<group>";
+		};
+		ED796D641BD9AA0800DE62A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED796D651BD9AA0800DE62A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED796D791BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED796D7C1BD9AA0800DE62A1 /* multipeer_connectivity_colorsTests.swift */,
+				ED796D7A1BD9AA0800DE62A1 /* Supporting Files */,
+			);
+			path = "multipeer-connectivity-colorsTests";
+			sourceTree = "<group>";
+		};
+		ED796D7A1BD9AA0800DE62A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED796D7B1BD9AA0800DE62A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED796D601BD9AA0800DE62A1 /* multipeer-connectivity-colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED796D801BD9AA0800DE62A1 /* Build configuration list for PBXNativeTarget "multipeer-connectivity-colors" */;
+			buildPhases = (
+				ED796D5D1BD9AA0800DE62A1 /* Sources */,
+				ED796D5E1BD9AA0800DE62A1 /* Frameworks */,
+				ED796D5F1BD9AA0800DE62A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multipeer-connectivity-colors";
+			productName = "multipeer-connectivity-colors";
+			productReference = ED796D611BD9AA0800DE62A1 /* multipeer-connectivity-colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED796D751BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED796D831BD9AA0800DE62A1 /* Build configuration list for PBXNativeTarget "multipeer-connectivity-colorsTests" */;
+			buildPhases = (
+				ED796D721BD9AA0800DE62A1 /* Sources */,
+				ED796D731BD9AA0800DE62A1 /* Frameworks */,
+				ED796D741BD9AA0800DE62A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED796D781BD9AA0800DE62A1 /* PBXTargetDependency */,
+			);
+			name = "multipeer-connectivity-colorsTests";
+			productName = "multipeer-connectivity-colorsTests";
+			productReference = ED796D761BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED796D591BD9AA0800DE62A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Alex Konrad";
+				TargetAttributes = {
+					ED796D601BD9AA0800DE62A1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ED796D751BD9AA0800DE62A1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ED796D601BD9AA0800DE62A1;
+					};
+				};
+			};
+			buildConfigurationList = ED796D5C1BD9AA0800DE62A1 /* Build configuration list for PBXProject "multipeer-connectivity-colors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED796D581BD9AA0800DE62A1;
+			productRefGroup = ED796D621BD9AA0800DE62A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED796D601BD9AA0800DE62A1 /* multipeer-connectivity-colors */,
+				ED796D751BD9AA0800DE62A1 /* multipeer-connectivity-colorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED796D5F1BD9AA0800DE62A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED796D6C1BD9AA0800DE62A1 /* Main.storyboard in Resources */,
+				ED796D711BD9AA0800DE62A1 /* LaunchScreen.xib in Resources */,
+				ED796D6E1BD9AA0800DE62A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED796D741BD9AA0800DE62A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED796D5D1BD9AA0800DE62A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED796D671BD9AA0800DE62A1 /* AppDelegate.swift in Sources */,
+				ED796D871BD9AA9A00DE62A1 /* ColorSwitchViewController.swift in Sources */,
+				ED796D891BD9AF1500DE62A1 /* ColorServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED796D721BD9AA0800DE62A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED796D7D1BD9AA0800DE62A1 /* multipeer_connectivity_colorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED796D781BD9AA0800DE62A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED796D601BD9AA0800DE62A1 /* multipeer-connectivity-colors */;
+			targetProxy = ED796D771BD9AA0800DE62A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED796D6A1BD9AA0800DE62A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED796D6B1BD9AA0800DE62A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED796D6F1BD9AA0800DE62A1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED796D701BD9AA0800DE62A1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED796D7E1BD9AA0800DE62A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED796D7F1BD9AA0800DE62A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED796D811BD9AA0800DE62A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "multipeer-connectivity-colors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED796D821BD9AA0800DE62A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "multipeer-connectivity-colors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED796D841BD9AA0800DE62A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "multipeer-connectivity-colorsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-connectivity-colors.app/multipeer-connectivity-colors";
+			};
+			name = Debug;
+		};
+		ED796D851BD9AA0800DE62A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "multipeer-connectivity-colorsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-connectivity-colors.app/multipeer-connectivity-colors";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED796D5C1BD9AA0800DE62A1 /* Build configuration list for PBXProject "multipeer-connectivity-colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED796D7E1BD9AA0800DE62A1 /* Debug */,
+				ED796D7F1BD9AA0800DE62A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED796D801BD9AA0800DE62A1 /* Build configuration list for PBXNativeTarget "multipeer-connectivity-colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED796D811BD9AA0800DE62A1 /* Debug */,
+				ED796D821BD9AA0800DE62A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED796D831BD9AA0800DE62A1 /* Build configuration list for PBXNativeTarget "multipeer-connectivity-colorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED796D841BD9AA0800DE62A1 /* Debug */,
+				ED796D851BD9AA0800DE62A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED796D591BD9AA0800DE62A1 /* Project object */;
+}
